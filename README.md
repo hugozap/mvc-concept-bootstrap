@@ -1,7 +1,8 @@
 mvc-concept-bootstrap
 =====================
 current version: 0.1
-Author: Hugo Zapata ( hugozap@obassi.com )
+
+Author: Hugo Zapata ( www.hugozap.com)
 License: MIT
 
 A bootstrap project for ASPNET MVC applications with OAuth authentication and other utilities to create cool web apps
