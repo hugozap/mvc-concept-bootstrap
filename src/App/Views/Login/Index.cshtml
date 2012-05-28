@@ -1,0 +1,12 @@
+﻿@{
+    ViewBag.Title = "Index";
+}
+
+<div class="row">
+    <div class="span-12">
+        Login with:
+        <ul>
+            <li><a href="@Url.RouteUrl(new { controller = "Login", action = "TwitterLogOn" })"><img src="@Url.Content("~/static/img/twitterlogin.png")" /></a></li>
+        </ul>
+    </div>
+</div>

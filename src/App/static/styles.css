@@ -1,0 +1,35 @@
+﻿   
+ /* TODO: Organize this file, create other css files */
+ 
+/*Smartphones*/
+  @media (max-width: 480px)  
+  {
+      
+      
+   }
+ 
+/*Smartphones to tablets*/
+  @media (max-width: 767px) 
+  {
+      
+      
+  }
+ 
+/* Portrait tablets to landscape desktop */
+  @media (min-width: 768px) and (max-width: 979px)  
+  {
+      
+      
+  }
+ 
+/* Large desktop*/
+  @media (min-width: 1200px)  
+  {
+      
+  }
+  
+
+  body
+  {
+      background-color:transparent;
+}

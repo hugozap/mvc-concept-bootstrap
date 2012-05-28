@@ -1,0 +1,27 @@
+﻿@if(Request.IsAuthenticated)
+{
+    var user = User.Identity as App.Infraestructure.AppCustomIdentity;   
+    <li class="dropdown">
+     
+ 
+    <a href="#" class="dropdown-toggle"  data-toggle="dropdown"> Mi cuenta ( <strong>@User.Identity.Name</strong> )
+        <b class="caret"></b>
+      </a> 
+    <ul class="dropdown-menu">
+        <li>
+            @Html.ActionLink("Configuración de cuenta", "Settings", "Login", new { area = "" }, null) 
+        </li>
+         <li class="divider"></li>
+        <li>
+            @Html.ActionLink("Cerrar sesión", "LogOff", "Login", new { area = "" }, null) 
+        </li>
+         
+    </ul>
+   </li>
+    
+}
+else {
+    <li>
+         <a href="@Url.RouteUrl(new { controller = "Login", action = "TwitterLogOn" })"><img src="@Url.Content("~/static/img/twitterlogin.png")" /></a>
+    </li>
+   }
