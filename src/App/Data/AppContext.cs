@@ -8,7 +8,7 @@ namespace App.Data
 {
     public class AppContext : DbContext
     {
-        public DbSet<TaskItem> TaskItems { get; set; }
+        public DbSet<Task> TaskItems { get; set; }
         public DbSet<UserDetails> Users { get; set; }
         protected override void OnModelCreating(DbModelBuilder modelBuilder)
         {

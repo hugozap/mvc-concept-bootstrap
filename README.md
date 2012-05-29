@@ -32,6 +32,7 @@ The less dependencies the better
 * Twitter and Facebook authentication with DotNetOAuth
 * Membership authentication support 
 * Twitter Bootstrap integration 
+* Json.NET for better JSON serialization support
 * Html Helpers for knockout
 * Error handling
 * Entity Framework Code First basic setup

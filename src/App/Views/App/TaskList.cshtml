@@ -1,0 +1,8 @@
+﻿@*Lists the (task lists) created*@
+<div class="task-list">
+    <ul data-bind="foreach:myLists">
+        <li>
+            <a href="#" data-bind="text:name,click:App.selectList"></a>
+        </li>
+    </ul>
+</div>

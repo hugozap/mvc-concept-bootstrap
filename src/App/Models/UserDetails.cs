@@ -27,12 +27,10 @@ namespace App.Models
         }
         
 
-        public UserDetails()
+        public UserDetails():base()
         {
             Active = true;
             Deleted = false;
-            DateCreated = DateTime.UtcNow;
-            DateModified = DateTime.UtcNow;
         }
 
     }

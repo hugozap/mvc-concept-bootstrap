@@ -2,10 +2,12 @@
     ViewBag.Title = "Index";
 }
 
-<h2>Index</h2>
+<h1>Page title</h1>
 
 <div class="row">
     <div class="span-12">
-        Do wonderful things here with user @ViewBag.UserName
+        Do cool things here for user : @ViewBag.UserName
+        <h2>Lists</h2>
+        @{Html.RenderPartial("TaskList");}
     </div>
 </div>
