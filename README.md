@@ -7,7 +7,7 @@ License: MIT
 
 A bootstrap project for ASPNET MVC applications with OAuth authentication and other utilities to create cool web apps
 
-## Goals?
+## Goals
 Making it easy and fast to experiment and create fun applications without having to spend too much time setting up
 the project, dependencies, etc.
 
