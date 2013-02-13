@@ -207,7 +207,7 @@ App.loadObservableArray = function (url, array, type) {
         throw new Error('App.loadObservableArray: type not defined');
     }
 
-    $.getJSON(App.getUrl(Urls.loadTaskLists),
+    $.getJSON(url,
             function (result) {
                 //result is a serialized OperationResult server objectt
                 array.removeAll();
